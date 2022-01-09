@@ -1,6 +1,9 @@
 package com.hpdev.gsonmigration.data.dto
 
-// Gson Objects
+import kotlinx.serialization.Serializable
+
+// Kotlinx Serialization Objects
+@Serializable
 data class PersonDTO(
     val id: String,
     val name: String,
@@ -8,6 +11,7 @@ data class PersonDTO(
     val address: AddressDTO?
 )
 
+@Serializable
 data class AddressDTO(
     val street: String,
     val number: Int,
