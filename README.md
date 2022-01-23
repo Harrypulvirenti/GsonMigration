@@ -1,6 +1,8 @@
 # Gson Migration Strategy - Practical guide
-### Step 1 - Fix DTOs fields nullability
+### Step 2 - Implement Custom Deserializers
 
 ###### Changed Classes / Files:
 
-- `DTOModels`
+- `JsonObjectExtensions`
+- `PersonDeserializer`
+- `AddressDeserializer`
