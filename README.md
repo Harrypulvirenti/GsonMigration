@@ -1,7 +1,11 @@
 # Gson Migration Strategy - Practical guide
-### Step 3 - Register the deserializers to the `Gson` instance and deserializers tests
+### Step 4 - Finalise the migration to `Kotlin x Serialization`
 
 ###### Changed Classes / Files:
 
+- `DTOModels`
+- `PersonDeserializer`
+- `AddressDeserializer`
 - `GsonDeserializersHelper`
+- `JsonObjectExtensions`
 - `PersonDeserializerTest`
