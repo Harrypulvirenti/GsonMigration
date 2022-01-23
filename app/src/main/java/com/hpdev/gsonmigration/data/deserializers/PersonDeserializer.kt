@@ -26,5 +26,3 @@ class PersonDeserializer : JsonDeserializer<PersonDTO> {
     private fun JsonObject.deserializeAddressDTO(context: JsonDeserializationContext): AddressDTO? =
         context.deserialize(getOrNull<JsonObject>("address"), getType<AddressDTO>())
 }
-
-

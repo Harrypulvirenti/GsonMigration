@@ -1,8 +1,7 @@
 # Gson Migration Strategy - Practical guide
-### Step 2 - Implement Custom Deserializers
+### Step 3 - Register the deserializers to the Gson instance and deserializers tests
 
 ###### Changed Classes / Files:
 
-- `JsonObjectExtensions`
-- `PersonDeserializer`
-- `AddressDeserializer`
+- `GsonDeserializersHelper`
+- `PersonDeserializerTest`
