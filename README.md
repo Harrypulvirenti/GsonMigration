@@ -7,7 +7,7 @@ This strategy is detailed described in [this article](https://dev.to/harrypulvir
 The examples are split into different branches per step:
 
 - Fix DTOs fields nullability
-- Implement a custom deserializer
+- Implement a Custom Deserializers
 - Register the deserializer to the `Gson` instance and deserializer tests
 - Finalise the migration to `Kotlin x Serialization`
 
